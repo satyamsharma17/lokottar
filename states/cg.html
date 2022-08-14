@@ -1,0 +1,2263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>लोकोत्तर | लोक की बात लोक के साथ</title>
+    <link rel="icon" href="../assets/img/logopen.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <style type="text/css">
+      :root,
+      :host {
+        --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+        --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+        --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+        --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+        --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+        --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+      }
+
+      svg:not(:root).svg-inline--fa,
+      svg:not(:host).svg-inline--fa {
+        overflow: visible;
+        box-sizing: content-box;
+      }
+
+      .svg-inline--fa {
+        display: var(--fa-display, inline-block);
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+      }
+
+      .svg-inline--fa.fa-2xs {
+        vertical-align: 0.1em;
+      }
+
+      .svg-inline--fa.fa-xs {
+        vertical-align: 0em;
+      }
+
+      .svg-inline--fa.fa-sm {
+        vertical-align: -0.0714285705em;
+      }
+
+      .svg-inline--fa.fa-lg {
+        vertical-align: -0.2em;
+      }
+
+      .svg-inline--fa.fa-xl {
+        vertical-align: -0.25em;
+      }
+
+      .svg-inline--fa.fa-2xl {
+        vertical-align: -0.3125em;
+      }
+
+      .svg-inline--fa.fa-pull-left {
+        margin-right: var(--fa-pull-margin, 0.3em);
+        width: auto;
+      }
+
+      .svg-inline--fa.fa-pull-right {
+        margin-left: var(--fa-pull-margin, 0.3em);
+        width: auto;
+      }
+
+      .svg-inline--fa.fa-li {
+        width: var(--fa-li-width, 2em);
+        top: 0.25em;
+      }
+
+      .svg-inline--fa.fa-fw {
+        width: var(--fa-fw-width, 1.25em);
+      }
+
+      .fa-layers svg.svg-inline--fa {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .fa-layers-counter,
+      .fa-layers-text {
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+      }
+
+      .fa-layers {
+        display: inline-block;
+        height: 1em;
+        position: relative;
+        text-align: center;
+        vertical-align: -0.125em;
+        width: 1em;
+      }
+
+      .fa-layers svg.svg-inline--fa {
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+      }
+
+      .fa-layers-text {
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+      }
+
+      .fa-layers-counter {
+        background-color: var(--fa-counter-background-color, #ff253a);
+        border-radius: var(--fa-counter-border-radius, 1em);
+        box-sizing: border-box;
+        color: var(--fa-inverse, #fff);
+        line-height: var(--fa-counter-line-height, 1);
+        max-width: var(--fa-counter-max-width, 5em);
+        min-width: var(--fa-counter-min-width, 1.5em);
+        overflow: hidden;
+        padding: var(--fa-counter-padding, 0.25em 0.5em);
+        right: var(--fa-right, 0);
+        text-overflow: ellipsis;
+        top: var(--fa-top, 0);
+        -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+        transform: scale(var(--fa-counter-scale, 0.25));
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+      }
+
+      .fa-layers-bottom-right {
+        bottom: var(--fa-bottom, 0);
+        right: var(--fa-right, 0);
+        top: auto;
+        -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+        transform: scale(var(--fa-layers-scale, 0.25));
+        -webkit-transform-origin: bottom right;
+        transform-origin: bottom right;
+      }
+
+      .fa-layers-bottom-left {
+        bottom: var(--fa-bottom, 0);
+        left: var(--fa-left, 0);
+        right: auto;
+        top: auto;
+        -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+        transform: scale(var(--fa-layers-scale, 0.25));
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+      }
+
+      .fa-layers-top-right {
+        top: var(--fa-top, 0);
+        right: var(--fa-right, 0);
+        -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+        transform: scale(var(--fa-layers-scale, 0.25));
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+      }
+
+      .fa-layers-top-left {
+        left: var(--fa-left, 0);
+        right: auto;
+        top: var(--fa-top, 0);
+        -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+        transform: scale(var(--fa-layers-scale, 0.25));
+        -webkit-transform-origin: top left;
+        transform-origin: top left;
+      }
+
+      .fa-1x {
+        font-size: 1em;
+      }
+
+      .fa-2x {
+        font-size: 2em;
+      }
+
+      .fa-3x {
+        font-size: 3em;
+      }
+
+      .fa-4x {
+        font-size: 4em;
+      }
+
+      .fa-5x {
+        font-size: 5em;
+      }
+
+      .fa-6x {
+        font-size: 6em;
+      }
+
+      .fa-7x {
+        font-size: 7em;
+      }
+
+      .fa-8x {
+        font-size: 8em;
+      }
+
+      .fa-9x {
+        font-size: 9em;
+      }
+
+      .fa-10x {
+        font-size: 10em;
+      }
+
+      .fa-2xs {
+        font-size: 0.625em;
+        line-height: 0.1em;
+        vertical-align: 0.225em;
+      }
+
+      .fa-xs {
+        font-size: 0.75em;
+        line-height: 0.0833333337em;
+        vertical-align: 0.125em;
+      }
+
+      .fa-sm {
+        font-size: 0.875em;
+        line-height: 0.0714285718em;
+        vertical-align: 0.0535714295em;
+      }
+
+      .fa-lg {
+        font-size: 1.25em;
+        line-height: 0.05em;
+        vertical-align: -0.075em;
+      }
+
+      .fa-xl {
+        font-size: 1.5em;
+        line-height: 0.0416666682em;
+        vertical-align: -0.125em;
+      }
+
+      .fa-2xl {
+        font-size: 2em;
+        line-height: 0.03125em;
+        vertical-align: -0.1875em;
+      }
+
+      .fa-fw {
+        text-align: center;
+        width: 1.25em;
+      }
+
+      .fa-ul {
+        list-style-type: none;
+        margin-left: var(--fa-li-margin, 2.5em);
+        padding-left: 0;
+      }
+
+      .fa-ul > li {
+        position: relative;
+      }
+
+      .fa-li {
+        left: calc(var(--fa-li-width, 2em) * -1);
+        position: absolute;
+        text-align: center;
+        width: var(--fa-li-width, 2em);
+        line-height: inherit;
+      }
+
+      .fa-border {
+        border-color: var(--fa-border-color, #eee);
+        border-radius: var(--fa-border-radius, 0.1em);
+        border-style: var(--fa-border-style, solid);
+        border-width: var(--fa-border-width, 0.08em);
+        padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+      }
+
+      .fa-pull-left {
+        float: left;
+        margin-right: var(--fa-pull-margin, 0.3em);
+      }
+
+      .fa-pull-right {
+        float: right;
+        margin-left: var(--fa-pull-margin, 0.3em);
+      }
+
+      .fa-beat {
+        -webkit-animation-name: fa-beat;
+        animation-name: fa-beat;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(
+          --fa-animation-timing,
+          ease-in-out
+        );
+        animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      }
+
+      .fa-bounce {
+        -webkit-animation-name: fa-bounce;
+        animation-name: fa-bounce;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.28, 0.84, 0.42, 1)
+        );
+        animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.28, 0.84, 0.42, 1)
+        );
+      }
+
+      .fa-fade {
+        -webkit-animation-name: fa-fade;
+        animation-name: fa-fade;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.4, 0, 0.6, 1)
+        );
+        animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.4, 0, 0.6, 1)
+        );
+      }
+
+      .fa-beat-fade {
+        -webkit-animation-name: fa-beat-fade;
+        animation-name: fa-beat-fade;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.4, 0, 0.6, 1)
+        );
+        animation-timing-function: var(
+          --fa-animation-timing,
+          cubic-bezier(0.4, 0, 0.6, 1)
+        );
+      }
+
+      .fa-flip {
+        -webkit-animation-name: fa-flip;
+        animation-name: fa-flip;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(
+          --fa-animation-timing,
+          ease-in-out
+        );
+        animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      }
+
+      .fa-shake {
+        -webkit-animation-name: fa-shake;
+        animation-name: fa-shake;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+        animation-timing-function: var(--fa-animation-timing, linear);
+      }
+
+      .fa-spin {
+        -webkit-animation-name: fa-spin;
+        animation-name: fa-spin;
+        -webkit-animation-delay: var(--fa-animation-delay, 0);
+        animation-delay: var(--fa-animation-delay, 0);
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 2s);
+        animation-duration: var(--fa-animation-duration, 2s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+        animation-timing-function: var(--fa-animation-timing, linear);
+      }
+
+      .fa-spin-reverse {
+        --fa-animation-direction: reverse;
+      }
+
+      .fa-pulse,
+      .fa-spin-pulse {
+        -webkit-animation-name: fa-spin;
+        animation-name: fa-spin;
+        -webkit-animation-direction: var(--fa-animation-direction, normal);
+        animation-direction: var(--fa-animation-direction, normal);
+        -webkit-animation-duration: var(--fa-animation-duration, 1s);
+        animation-duration: var(--fa-animation-duration, 1s);
+        -webkit-animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        animation-iteration-count: var(
+          --fa-animation-iteration-count,
+          infinite
+        );
+        -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+        animation-timing-function: var(--fa-animation-timing, steps(8));
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .fa-beat,
+        .fa-bounce,
+        .fa-fade,
+        .fa-beat-fade,
+        .fa-flip,
+        .fa-pulse,
+        .fa-shake,
+        .fa-spin,
+        .fa-spin-pulse {
+          -webkit-animation-delay: -1ms;
+          animation-delay: -1ms;
+          -webkit-animation-duration: 1ms;
+          animation-duration: 1ms;
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+          transition-delay: 0s;
+          transition-duration: 0s;
+        }
+      }
+
+      @-webkit-keyframes fa-beat {
+        0%,
+        90% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        45% {
+          -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+          transform: scale(var(--fa-beat-scale, 1.25));
+        }
+      }
+
+      @keyframes fa-beat {
+        0%,
+        90% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        45% {
+          -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+          transform: scale(var(--fa-beat-scale, 1.25));
+        }
+      }
+
+      @-webkit-keyframes fa-bounce {
+        0% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+
+        10% {
+          -webkit-transform: scale(
+              var(--fa-bounce-start-scale-x, 1.1),
+              var(--fa-bounce-start-scale-y, 0.9)
+            )
+            translateY(0);
+          transform: scale(
+              var(--fa-bounce-start-scale-x, 1.1),
+              var(--fa-bounce-start-scale-y, 0.9)
+            )
+            translateY(0);
+        }
+
+        30% {
+          -webkit-transform: scale(
+              var(--fa-bounce-jump-scale-x, 0.9),
+              var(--fa-bounce-jump-scale-y, 1.1)
+            )
+            translateY(var(--fa-bounce-height, -0.5em));
+          transform: scale(
+              var(--fa-bounce-jump-scale-x, 0.9),
+              var(--fa-bounce-jump-scale-y, 1.1)
+            )
+            translateY(var(--fa-bounce-height, -0.5em));
+        }
+
+        50% {
+          -webkit-transform: scale(
+              var(--fa-bounce-land-scale-x, 1.05),
+              var(--fa-bounce-land-scale-y, 0.95)
+            )
+            translateY(0);
+          transform: scale(
+              var(--fa-bounce-land-scale-x, 1.05),
+              var(--fa-bounce-land-scale-y, 0.95)
+            )
+            translateY(0);
+        }
+
+        57% {
+          -webkit-transform: scale(1, 1)
+            translateY(var(--fa-bounce-rebound, -0.125em));
+          transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+        }
+
+        64% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+
+        100% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+      }
+
+      @keyframes fa-bounce {
+        0% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+
+        10% {
+          -webkit-transform: scale(
+              var(--fa-bounce-start-scale-x, 1.1),
+              var(--fa-bounce-start-scale-y, 0.9)
+            )
+            translateY(0);
+          transform: scale(
+              var(--fa-bounce-start-scale-x, 1.1),
+              var(--fa-bounce-start-scale-y, 0.9)
+            )
+            translateY(0);
+        }
+
+        30% {
+          -webkit-transform: scale(
+              var(--fa-bounce-jump-scale-x, 0.9),
+              var(--fa-bounce-jump-scale-y, 1.1)
+            )
+            translateY(var(--fa-bounce-height, -0.5em));
+          transform: scale(
+              var(--fa-bounce-jump-scale-x, 0.9),
+              var(--fa-bounce-jump-scale-y, 1.1)
+            )
+            translateY(var(--fa-bounce-height, -0.5em));
+        }
+
+        50% {
+          -webkit-transform: scale(
+              var(--fa-bounce-land-scale-x, 1.05),
+              var(--fa-bounce-land-scale-y, 0.95)
+            )
+            translateY(0);
+          transform: scale(
+              var(--fa-bounce-land-scale-x, 1.05),
+              var(--fa-bounce-land-scale-y, 0.95)
+            )
+            translateY(0);
+        }
+
+        57% {
+          -webkit-transform: scale(1, 1)
+            translateY(var(--fa-bounce-rebound, -0.125em));
+          transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+        }
+
+        64% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+
+        100% {
+          -webkit-transform: scale(1, 1) translateY(0);
+          transform: scale(1, 1) translateY(0);
+        }
+      }
+
+      @-webkit-keyframes fa-fade {
+        50% {
+          opacity: var(--fa-fade-opacity, 0.4);
+        }
+      }
+
+      @keyframes fa-fade {
+        50% {
+          opacity: var(--fa-fade-opacity, 0.4);
+        }
+      }
+
+      @-webkit-keyframes fa-beat-fade {
+        0%,
+        100% {
+          opacity: var(--fa-beat-fade-opacity, 0.4);
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 1;
+          -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+          transform: scale(var(--fa-beat-fade-scale, 1.125));
+        }
+      }
+
+      @keyframes fa-beat-fade {
+        0%,
+        100% {
+          opacity: var(--fa-beat-fade-opacity, 0.4);
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 1;
+          -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+          transform: scale(var(--fa-beat-fade-scale, 1.125));
+        }
+      }
+
+      @-webkit-keyframes fa-flip {
+        50% {
+          -webkit-transform: rotate3d(
+            var(--fa-flip-x, 0),
+            var(--fa-flip-y, 1),
+            var(--fa-flip-z, 0),
+            var(--fa-flip-angle, -180deg)
+          );
+          transform: rotate3d(
+            var(--fa-flip-x, 0),
+            var(--fa-flip-y, 1),
+            var(--fa-flip-z, 0),
+            var(--fa-flip-angle, -180deg)
+          );
+        }
+      }
+
+      @keyframes fa-flip {
+        50% {
+          -webkit-transform: rotate3d(
+            var(--fa-flip-x, 0),
+            var(--fa-flip-y, 1),
+            var(--fa-flip-z, 0),
+            var(--fa-flip-angle, -180deg)
+          );
+          transform: rotate3d(
+            var(--fa-flip-x, 0),
+            var(--fa-flip-y, 1),
+            var(--fa-flip-z, 0),
+            var(--fa-flip-angle, -180deg)
+          );
+        }
+      }
+
+      @-webkit-keyframes fa-shake {
+        0% {
+          -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+        }
+
+        4% {
+          -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+        }
+
+        8%,
+        24% {
+          -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+        }
+
+        12%,
+        28% {
+          -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+        }
+
+        16% {
+          -webkit-transform: rotate(-22deg);
+          transform: rotate(-22deg);
+        }
+
+        20% {
+          -webkit-transform: rotate(22deg);
+          transform: rotate(22deg);
+        }
+
+        32% {
+          -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+        }
+
+        36% {
+          -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+        }
+
+        40%,
+        100% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+      }
+
+      @keyframes fa-shake {
+        0% {
+          -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+        }
+
+        4% {
+          -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+        }
+
+        8%,
+        24% {
+          -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+        }
+
+        12%,
+        28% {
+          -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+        }
+
+        16% {
+          -webkit-transform: rotate(-22deg);
+          transform: rotate(-22deg);
+        }
+
+        20% {
+          -webkit-transform: rotate(22deg);
+          transform: rotate(22deg);
+        }
+
+        32% {
+          -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+        }
+
+        36% {
+          -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+        }
+
+        40%,
+        100% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+      }
+
+      @-webkit-keyframes fa-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes fa-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      .fa-rotate-90 {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+
+      .fa-rotate-180 {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+
+      .fa-rotate-270 {
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+      }
+
+      .fa-flip-horizontal {
+        -webkit-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+      }
+
+      .fa-flip-vertical {
+        -webkit-transform: scale(1, -1);
+        transform: scale(1, -1);
+      }
+
+      .fa-flip-both,
+      .fa-flip-horizontal.fa-flip-vertical {
+        -webkit-transform: scale(-1, -1);
+        transform: scale(-1, -1);
+      }
+
+      .fa-rotate-by {
+        -webkit-transform: rotate(var(--fa-rotate-angle, none));
+        transform: rotate(var(--fa-rotate-angle, none));
+      }
+
+      .fa-stack {
+        display: inline-block;
+        vertical-align: middle;
+        height: 2em;
+        position: relative;
+        width: 2.5em;
+      }
+
+      .fa-stack-1x,
+      .fa-stack-2x {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: var(--fa-stack-z-index, auto);
+      }
+
+      .svg-inline--fa.fa-stack-1x {
+        height: 1em;
+        width: 1.25em;
+      }
+
+      .svg-inline--fa.fa-stack-2x {
+        height: 2em;
+        width: 2.5em;
+      }
+
+      .fa-inverse {
+        color: var(--fa-inverse, #fff);
+      }
+
+      .sr-only,
+      .fa-sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
+      .sr-only-focusable:not(:focus),
+      .fa-sr-only-focusable:not(:focus) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
+      .svg-inline--fa .fa-primary {
+        fill: var(--fa-primary-color, currentColor);
+        opacity: var(--fa-primary-opacity, 1);
+      }
+
+      .svg-inline--fa .fa-secondary {
+        fill: var(--fa-secondary-color, currentColor);
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+
+      .svg-inline--fa.fa-swap-opacity .fa-primary {
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+
+      .svg-inline--fa.fa-swap-opacity .fa-secondary {
+        opacity: var(--fa-primary-opacity, 1);
+      }
+
+      .svg-inline--fa mask .fa-primary,
+      .svg-inline--fa mask .fa-secondary {
+        fill: black;
+      }
+
+      .fad.fa-inverse,
+      .fa-duotone.fa-inverse {
+        color: var(--fa-inverse, #fff);
+      }
+    </style>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <div class="bg-top-bar">
+      <div class="m-0 p-0 row">
+        <div style="font-size: 80%" class="col-6 col-md-4">
+          शनिवार
+          <!-- -->,
+          <!-- -->13
+          <!-- -->
+          <!-- -->अगस्त
+          <!-- -->,
+          <!-- -->2022
+        </div>
+        <div class="nav-top-tth col-4 col-md-4">
+          <div class="nav-top-title">
+            <span class="nav-top-title-text"
+              >लोक की बात लोक के साथ<span style="font-size: 80%">®</span></span
+            >
+          </div>
+        </div>
+        <div style="text-align: right" class="col-6 col-md-4">
+          <a href="/" class="social-top-btn">
+            <svg
+              style="height: 20px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="facebook-square"
+              class="svg-inline--fa fa-facebook-square"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="/" class="social-top-btn">
+            <svg
+              style="height: 20px"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fab"
+              data-icon="twitter"
+              class="svg-inline--fa fa-twitter"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="sticky-top" style="background-color: #fff">
+      <div class="m-0 p-0">
+        <div style="flex-direction: row-reverse" class="m-0 p-0 row">
+          <div class="hanging-holder col-md-5">
+            <span>
+              <div class="hanging-thread" style="height: 20%"></div>
+              <div>
+                <a href="../pages/events.html" class="hanging-btns"
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="calendar-day"
+                    class="svg-inline--fa fa-calendar-day"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-96zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    ></path></svg
+                  ><span class="hanging-text"> ईवेंट्स</span></a
+                >
+              </div> </span
+            ><span>
+              <div class="hanging-thread" style="height: 40%"></div>
+              <div>
+                <a href="../pages/gallery.html" class="hanging-btns"
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="th-large"
+                    class="svg-inline--fa fa-th-large"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M296 32h192c13.255 0 24 10.745 24 24v160c0 13.255-10.745 24-24 24H296c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24zm-80 0H24C10.745 32 0 42.745 0 56v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zM0 296v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm296 184h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H296c-13.255 0-24 10.745-24 24v160c0 13.255 10.745 24 24 24z"
+                    ></path></svg
+                  ><span class="hanging-text"> गेलरी</span></a
+                >
+              </div> </span
+            ><span>
+              <div class="hanging-thread" style="height: 50%"></div>
+              <div>
+                <a href="../pages/important.html" class="hanging-btns"
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="star"
+                    class="svg-inline--fa fa-star"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    ></path></svg
+                  ><span class="hanging-text"> ख़ास खबर</span></a
+                >
+              </div> </span
+            ><span>
+              <div class="hanging-thread" style="height: 15%"></div>
+              <div>
+                <a href="../pages/updates.html" class="hanging-btns"
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="bullhorn"
+                    class="svg-inline--fa fa-bullhorn"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02 0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19 310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65 64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35 25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0 41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44 0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98 52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0 32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96 141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0 136.95-23.78 190.95-66.98L480 98.58v282.84z"
+                    ></path></svg
+                  ><span class="hanging-text"> सूचना</span></a
+                >
+              </div> </span
+            ><span>
+              <div class="hanging-thread" style="height: 35%"></div>
+              <div>
+                <a href="http://www.elokottar.in/" class="hanging-btns"
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="newspaper"
+                    class="svg-inline--fa fa-newspaper"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M552 64H112c-20.858 0-38.643 13.377-45.248 32H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h496c13.255 0 24-10.745 24-24V88c0-13.255-10.745-24-24-24zM48 392V144h16v248c0 4.411-3.589 8-8 8s-8-3.589-8-8zm480 8H111.422c.374-2.614.578-5.283.578-8V112h416v288zM172 280h136c6.627 0 12-5.373 12-12v-96c0-6.627-5.373-12-12-12H172c-6.627 0-12 5.373-12 12v96c0 6.627 5.373 12 12 12zm28-80h80v40h-80v-40zm-40 140v-24c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H172c-6.627 0-12-5.373-12-12zm192 0v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0-144v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12zm0 72v-24c0-6.627 5.373-12 12-12h104c6.627 0 12 5.373 12 12v24c0 6.627-5.373 12-12 12H364c-6.627 0-12-5.373-12-12z"
+                    ></path></svg
+                  ><span class="hanging-text"> ई-पेपर</span></a
+                >
+              </div>
+            </span>
+          </div>
+          <div class="m-0 p-0 col-md-3"></div>
+          <div class="px-4 py-2 col-md-4">
+            <img
+              src="../assets/img/logo.gif"
+              class="nav-top-logo"
+              alt="लोकोत्तर"
+            />
+          </div>
+        </div>
+      </div>
+      <nav
+        class="navbar-class navbar-lktr navbar navbar-expand-md navbar-light"
+      >
+        <div class="container-fluid">
+          <a href="/"
+            class="cust-nav-item navbar-lktr-clr navbar-brand"
+            ><a href="/" class="nav-link"
+              ><svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="home"
+                style="color: #358bca;"
+                class="svg-inline--fa fa-home"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                ></path></svg></a
+          ></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul style="margin-left: auto" class="ml-auto navbar-nav">
+              <li class="cust-nav-item navbar-lktr-clr dropdown nav-item">
+                <a
+                  aria-haspopup="true"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  class="dropdown-toggle nav-link"
+                  aria-expanded="false"
+                  >राज्य</a
+                >
+                <div
+                  tabindex="-1"
+                  role="menu"
+                  aria-hidden="true"
+                  class="dropdown-menu dropdown-menu-end"
+                >
+                  <button
+                    type="button"
+                    tabindex="0"
+                    role="menuitem"
+                    class="dropdown-item"
+                  >
+                    <a href="mp.html" class="nav-link"
+                      >मध्यप्रदेश</a
+                    ></button
+                  ><button
+                    type="button"
+                    tabindex="0"
+                    role="menuitem"
+                    class="dropdown-item"
+                  >
+                    <a href="cg.html" class="nav-link"
+                      >छत्तीसगढ़</a
+                    ></button
+                  ><button
+                    type="button"
+                    tabindex="0"
+                    role="menuitem"
+                    class="dropdown-item"
+                  >
+                    <a href="up.html" class="nav-link"
+                      >उत्तर प्रदेश</a
+                    ></button
+                  ><button
+                    type="button"
+                    tabindex="0"
+                    role="menuitem"
+                    class="dropdown-item"
+                  >
+                    <a href="delhi.html" class="nav-link"
+                      >दिल्ली</a
+                    ></button
+                  ><button
+                    type="button"
+                    tabindex="0"
+                    role="menuitem"
+                    class="dropdown-item"
+                  >
+                    <a href="rs.html" class="nav-link"
+                      >राजस्थान</a
+                    >
+                  </button>
+                </div>
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/national.html" class="nav-link"
+                  >राष्ट्रीय</a
+                >
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/sports.html" class="nav-link">खेल</a>
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/trade.html" class="nav-link">व्यापार</a>
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/religion.html" class="nav-link"
+                  >धर्म-संस्कृति</a
+                >
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/tourism.html" class="nav-link">पर्यटन</a>
+              </li>
+              <li class="cust-nav-item navbar-lktr-clr nav-item">
+                <a href="../menu/entertainment.html" class="nav-link">मनोरंजन</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="m-0 px-2 py-4 row">
+      <div class="col-md-4"><div class="news-cat-box">छत्तीसगढ़</div></div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-3">
+            <h3><strong>Share Page:</strong></h3>
+          </div>
+          <div class="col-md-9">
+            <button
+              size="32"
+              aria-label="facebook"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/fa.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="whatsapp"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/wa.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="linkedin"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/li.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="instapaper"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/ip.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="twitter"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/tw.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="pinterest"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/pi.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="telegram"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/tg.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="reddit"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/re.png" alt="..." height="32px" /></button
+            ><button
+              size="32"
+              aria-label="email"
+              class="react-share__ShareButton"
+              style="
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font: inherit;
+                color: inherit;
+                cursor: pointer;
+              "
+            >
+              <img src="../assets/img/si/em.png" alt="..." height="32px" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-0 p-0 mt-2 row">
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1659802195491%2F1659802195491primary.jpg?alt=media&amp;token=076a144f-ac6e-41f2-bf01-4bd9d79b8a9f"
+          width="100%"
+        />
+        <div class="newstext">
+          नए उपराष्ट्रपति बने जगदीप धनखड़, 200 वोट भी नहीं पा सकीं विपक्ष की
+          उम्मीदवार मार्गरेट अल्वा
+        </div>
+        <div class="newsdate">शनिवार, 6 अगस्त 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1659715005232%2F1659715005232primary.jpg?alt=media&amp;token=ab65a763-e272-419e-9c02-be3515ca0368"
+          width="100%"
+        />
+        <div class="newstext">
+          महंगाई के मुद्दे पर विरोध.प्रदर्शन में राहुल गांधी और प्रियंका वाड्रा
+          को पुलिस ने हिरासत में लिया
+        </div>
+        <div class="newsdate">शुक्रवार, 5 अगस्त 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1659633103232%2F1659633103232primary.jpg?alt=media&amp;token=3302dfc5-a171-4be6-882e-fe0c0f46ce78"
+          width="100%"
+        />
+        <div class="newstext">
+          कांग्रेस नेता मल्लिकार्जुन खड़गे ED के समक्ष पेश हुए
+        </div>
+        <div class="newsdate">गुरुवार, 4 अगस्त 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1659544277557%2F1659544277557primary.jpg?alt=media&amp;token=dac6505d-59fd-48ad-977c-6b362db48ceb"
+          width="100%"
+        />
+        <div class="newstext">
+          कोर्ट ने पार्थ चर्टजी और अर्पिता मुखर्जी को नहीं दी राहत
+        </div>
+        <div class="newsdate">बुधवार, 3 अगस्त 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1659455133308%2F1659455133308primary.jpg?alt=media&amp;token=f9a15af9-8c25-4c1a-a3cc-b7970c69f5a2"
+          width="100%"
+        />
+        <div class="newstext">
+          ED का छापा नेशनल हेराल्ड मुख्यालय पर, दफ्तर के बाहर कांग्रेस
+          कार्यकर्ताओं का विरोध-प्रदर्शन
+        </div>
+        <div class="newsdate">मंगलवार, 2 अगस्त 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647286126807%2F1647286126807primary.jpg?alt=media&amp;token=5027fa07-8296-4f29-8abd-ad589203e6d3"
+          width="100%"
+        />
+        <div class="newstext">कोर्ट में जज के सामने किए कई सनसनीखेज खुलासे</div>
+        <div class="newsdate">मंगलवार, 15 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647201367125%2F1647201367125primary.jpg?alt=media&amp;token=56e59a67-c935-46e5-b4d3-cfcb7f1a6e6d"
+          width="100%"
+        />
+        <div class="newstext">मप्र में स्लीपर सेल स्थापित कर रहे थे आतंकी</div>
+        <div class="newsdate">सोमवार, 14 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647200260341%2F1647200260341primary.jpg?alt=media&amp;token=68d1a21b-9793-40d4-a021-52605e2ed623"
+          width="100%"
+        />
+        <div class="newstext">
+          शुलभ शौचालय के रंगरोगन के प्रचार हेतू पीपल के पेड़ पर चलाई कुल्हाड़ी
+        </div>
+        <div class="newsdate">सोमवार, 14 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647199930599%2F1647199930599primary.jpg?alt=media&amp;token=8790eaf3-3bc7-4dd9-af27-8cb445fc34f8"
+          width="100%"
+        />
+        <div class="newstext">
+          हिन्दू ही आगे के लक्ष्य को लेकर कार्यकर्ता समाज में कार्य करें - डॉ.
+          प्रवीण भाई तोगड़िया
+        </div>
+        <div class="newsdate">सोमवार, 14 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647199792096%2F1647199792096primary.jpg?alt=media&amp;token=a005bcb6-c2e9-4a7d-a264-d4d80823d66c"
+          width="100%"
+        />
+        <div class="newstext">
+          पीएम मोदी ने मांगी सरकार की सोशल वेलफेयर स्कीमों की लिस्ट, सभी
+          मंत्रालयों को जारी किए आदेश
+        </div>
+        <div class="newsdate">सोमवार, 14 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1647199730001%2F1647199730001primary.jpg?alt=media&amp;token=a4129abd-0c0d-4821-80ab-4c1345409491"
+          width="100%"
+        />
+        <div class="newstext">
+          होली मनाने देश विदेश से हजारों की संख्या में गोवर्धन पहुंच रहे
+          श्रद्धालु
+        </div>
+        <div class="newsdate">सोमवार, 14 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1646080997788%2F1646080997788primary.jpg?alt=media&amp;token=eafc2791-ea37-40a4-b784-c37bc1c870e4"
+          width="100%"
+        />
+        <div class="newstext">
+          यूक्रेन महासंकट में भारतीयों के लिए संजीवनी बना आपरेशन गंगा
+        </div>
+        <div class="newsdate">मंगलवार, 1 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1646080316490%2F1646080316490primary.jpg?alt=media&amp;token=4cf63601-d838-4035-808c-58005b7d9d02"
+          width="100%"
+        />
+        <div class="newstext">
+          युद्ध के बीच भारत की बड़ी पहल, यूक्रेन में दवाइयां भेजेगा भारत
+        </div>
+        <div class="newsdate">मंगलवार, 1 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1646080225267%2F1646080225267primary.jpg?alt=media&amp;token=ebbd5135-aedd-46d1-8af7-3ae5e93ea211"
+          width="100%"
+        />
+        <div class="newstext">
+          मालेगांव बम विस्फोट मामले में एक और गवाह मुकरा, कर्नल पुरोहित को नहीं
+          पहचाना
+        </div>
+        <div class="newsdate">मंगलवार, 1 मार्च 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1645892015807%2F1645892015807primary.jpg?alt=media&amp;token=17b5a552-9cac-4679-86f7-be33676ec0f9"
+          width="100%"
+        />
+        <div class="newstext">
+          हम पर एक लाख सैनिकों ने किया हमला , यूक्रेनी राष्ट्रपति ने पीएम मोदी
+          से फिर मांगी मदद
+        </div>
+        <div class="newsdate">शनिवार, 26 फरवरी 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1645891938106%2F1645891938106primary.jpg?alt=media&amp;token=9fb700a5-a78d-4b27-8981-29d6b8ead1c5"
+          width="100%"
+        />
+        <div class="newstext">
+          ब्रिटेन में बहुपक्षीय हवाई अभ्यास में भाग नहीं लेगी भारतीय वायुसेना
+        </div>
+        <div class="newsdate">शनिवार, 26 फरवरी 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1645559580378%2F1645559580378primary.jpg?alt=media&amp;token=a308d90b-1501-4588-ab06-050573ab9d61"
+          width="100%"
+        />
+        <div class="newstext">
+          बच्चे खोल रहे स्कूल और लगा रहे झाड़ू, शिक्षक नदारद
+        </div>
+        <div class="newsdate">बुधवार, 23 फरवरी 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1644577383088%2F1644577383088primary.jpg?alt=media&amp;token=5f103cc8-4b2d-4554-9016-18f9718bbbfe"
+          width="100%"
+        />
+        <div class="newstext">
+          हिजाब मामले में सुप्रीम कोर्ट ने तत्काल सुनवाई से किया इनकार
+        </div>
+        <div class="newsdate">शुक्रवार, 11 फरवरी 2022</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1610809602654%2Fcold.jpg?alt=media&amp;token=25c9d652-9bd4-4848-b878-8a09b58a12a9"
+          width="100%"
+        />
+        <div class="newstext">
+          उत्तर भारत में शीतलहर के साथ कड़ाके की ठंड का टॉर्चर जारी
+        </div>
+        <div class="newsdate">शनिवार, 16 जनवरी 2021</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1610809464084%2FModi.jpg?alt=media&amp;token=106929a8-5e18-4389-9bd7-979e2d68fb74"
+          width="100%"
+        />
+        <div class="newstext">
+          मोदी ने किया देश के सबसे बड़े वैक्सीनेशन अभियान का शुभारंभ
+        </div>
+        <div class="newsdate">शनिवार, 16 जनवरी 2021</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1606758525672%2FL-1.jpg?alt=media&amp;token=dff013fc-14af-4576-bd8e-a935c4cc3556"
+          width="100%"
+        />
+        <div class="newstext">देव दीपावली की चमक पर किसान आंदोलन का साया</div>
+        <div class="newsdate">सोमवार, 30 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1606413287874%2FP-11.jpg?alt=media&amp;token=add9503d-e8e3-4899-a463-5e4cb3526868"
+          width="100%"
+        />
+        <div class="newstext">
+          भोपाल में पकड़ाई पांच राज्यों में एटीएम लूटने वाली गैंग
+        </div>
+        <div class="newsdate">गुरुवार, 26 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1606413030614%2FP-3.jpg?alt=media&amp;token=3d6ff647-bfce-4a1b-b522-3ae038fa6444"
+          width="100%"
+        />
+        <div class="newstext">देशभर में श्रमिक हड़ताल, सड़़क पर उतरे किसान</div>
+        <div class="newsdate">गुरुवार, 26 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1605810031042%2Fuj-6.jpg?alt=media&amp;token=036aa7d5-2b71-407e-9ce0-5cf07968228e"
+          width="100%"
+        />
+        <div class="newstext">
+          दूल्हा नहीं चढ़ेगा घोड़ी, डीजे और बैंड पर प्रतिबंध शादी में एक समय में
+        </div>
+        <div class="newsdate">गुरुवार, 19 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1605715028056%2FL-1.jpg?alt=media&amp;token=5bc1e6e0-6ac5-4a46-b0ba-9e14fc61d076"
+          width="100%"
+        />
+        <div class="newstext">सुप्रीम कोर्ट से तेजबहादुर के वकील को फटकार</div>
+        <div class="newsdate">बुधवार, 18 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1605714577842%2FL-2.jpg?alt=media&amp;token=847cd232-a683-4682-b641-8283d3671eb1"
+          width="100%"
+        />
+        <div class="newstext">
+          श्रीकृष्ण जन्मभूमि मामले में मथुरा जिला कोर्ट में सुनवाई टली
+        </div>
+        <div class="newsdate">बुधवार, 18 नवम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603384454480%2F3.jpg?alt=media&amp;token=06340e6b-7ea9-43fe-91d9-c593a4acc675"
+          width="100%"
+        />
+        <div class="newstext">
+          देवी मां को खुश करने महिला ने 24 वर्षीय बेटे की दी बलि, गिरफ्तार
+        </div>
+        <div class="newsdate">गुरुवार, 22 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603278117653%2F9.jpg?alt=media&amp;token=6a485cf1-53c8-4eac-9315-38c022f1c548"
+          width="100%"
+        />
+        <div class="newstext">
+          एकनाथ खडसे का भाजपा से इस्तीफा, राकांपा में होंगे शामिल
+        </div>
+        <div class="newsdate">बुधवार, 21 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603277993472%2F8.jpg?alt=media&amp;token=43cbb54a-5d68-491b-be5a-710d8ed613a1"
+          width="100%"
+        />
+        <div class="newstext">
+          पश्चिमी रेलवे मुम्बई में चलाएगा चार और 'लेडीज स्पेशल' ट्रेनों
+        </div>
+        <div class="newsdate">बुधवार, 21 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603277886645%2F7.jpg?alt=media&amp;token=297fcc6b-1ac4-4b3e-aa32-8b3afe901a43"
+          width="100%"
+        />
+        <div class="newstext">
+          अपराध की नई चुनौतियों से निपटने पुलिस बलों का किया जा रहा आधुनिकीकरण
+        </div>
+        <div class="newsdate">बुधवार, 21 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603277737789%2F6.jpg?alt=media&amp;token=22e25ed2-d737-45ee-ae71-8d026685a0c5"
+          width="100%"
+        />
+        <div class="newstext">
+          जम्मू-कश्मीर क्रिकेट संघ घोटाले में फारूक अब्दुल्ला से फिर पूछताछ
+        </div>
+        <div class="newsdate">बुधवार, 21 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1603277203727%2F5.jpg?alt=media&amp;token=6de8cc22-a7fe-4567-b50d-02ef50d4f55b"
+          width="100%"
+        />
+        <div class="newstext">प्रधानमंत्री मोदी ने की पुलिस बल की तारिफ</div>
+        <div class="newsdate">बुधवार, 21 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1601961790531%2FPFI%20ke%204%20arrest%20from%20Mathura.jpg?alt=media&amp;token=22b9135b-f043-4f0f-beb5-16cce94abe8b"
+          width="100%"
+        />
+        <div class="newstext">
+          हाथरस कांड : UP को जलाने की साजिश में जुटे PFI के 4 संदिग्ध गिरफ्तार
+        </div>
+        <div class="newsdate">मंगलवार, 6 अक्टूबर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1599740745224%2FKangna%20-%20CM%20tweet.jpg?alt=media&amp;token=8a0a06e0-a6b5-4f6e-8f9f-4fe6ead90923"
+          width="100%"
+        />
+        <div class="newstext">उद्धव ठाकरे का इतना अपमान !&nbsp;</div>
+        <div class="newsdate">गुरुवार, 10 सितम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1599621330689%2FKangana_ranaut_file-pti.jpg?alt=media&amp;token=ee2a90ec-dc84-4c0d-8650-88476d8bd92c"
+          width="100%"
+        />
+        <div class="newstext">
+          शिवसेना की धमकी, Y+सुरक्षा के साथ आज मुंबई पहुंचेंगी कंगना रनौत
+        </div>
+        <div class="newsdate">बुधवार, 9 सितम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1599316741099%2F5.jpg?alt=media&amp;token=8a646362-773a-429b-b5e6-fea4e5ad4684"
+          width="100%"
+        />
+        <div class="newstext">
+          न्यूनतम शासन, अधिकतम निजीकरण है सरकार की नीति: राहुल
+        </div>
+        <div class="newsdate">शनिवार, 5 सितम्बर 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1598717202487%2FLokottar-2%20Ria.jpg?alt=media&amp;token=92c8a05b-a64d-491c-b548-47f5b0327d3e"
+          width="100%"
+        />
+        <div class="newstext">रिया चक्रवर्ती का होगा पॉलीग्राफ टेस्ट!</div>
+        <div class="newsdate">शनिवार, 29 अगस्त 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1598716965336%2FLokottar-1.jpg?alt=media&amp;token=370a1ce2-94e5-45ab-ba06-67946add4e93"
+          width="100%"
+        />
+        <div class="newstext">
+          अगस्त महीने में हुई 1976 के बाद सबसे ज्यादा बारिश
+        </div>
+        <div class="newsdate">शनिवार, 29 अगस्त 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1598032109592%2FP-7.jpg?alt=media&amp;token=00690256-d565-4c9c-8b28-fcfa7f57e8ab"
+          width="100%"
+        />
+        <div class="newstext">हातौद की आदिवासी बहनें बतियाई सीएम से</div>
+        <div class="newsdate">शुक्रवार, 21 अगस्त 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1597060174900%2Fbreakingdefault.jpg?alt=media&amp;token=65258146-33f3-4cb5-b755-ff1015e27809"
+          width="100%"
+        />
+        <div class="newstext">
+          राजस्थान में 14 अगस्त से विधानसभा सत्र शुरू हो रहा है। इसके पहले सियास
+        </div>
+        <div class="newsdate">सोमवार, 10 अगस्त 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1595888469427%2Frafale21_1595836935.jpg?alt=media&amp;token=6c86d5d0-899b-488e-8106-1d7d321dafa3"
+          width="100%"
+        />
+        <div class="newstext">फ्रांस से 5 राफेल रवाना</div>
+        <div class="newsdate">मंगलवार, 28 जुलाई 2020</div>
+      </div>
+      <div
+        class="pt-2 newshover col-md-3"
+        style="padding-left: 0px; padding-right: 10px"
+      >
+        <img
+          alt="..."
+          class="newsimg"
+          src="https://firebasestorage.googleapis.com/v0/b/lokottar-com.appspot.com/o/news%2F1595888143007%2Frafale21_1595836935.jpg?alt=media&amp;token=bb22e1ea-b423-49b6-b8de-73af505432b9"
+          width="100%"
+        />
+        <div class="newstext">फ्रांस से 5 राफेल रवाना</div>
+        <div class="newsdate">मंगलवार, 28 जुलाई 2020</div>
+      </div>
+    </div>
+
+    <footer class="pt-5 mt-5 pb-4" style="background-color: #f6f6f6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="../assets/img/logo.gif" width="100%" alt="लोकोत्तर" />
+            <div style="text-align: center">लोक की बात लोक के साथ</div>
+            <hr />
+            <div>
+              लोकोत्तर की विशेष
+              <a
+                style="text-decoration: none; color: #333; font-weight: bold"
+                href="http://www.elokottar.in/"
+                >ई-पेपर</a
+              >
+              और
+              <a
+                style="text-decoration: none; color: #333; font-weight: bold"
+                href="http://www.lokottartv.in/"
+                >लाइव टीवी</a
+              >
+              उपश्रेणियौ से जुडें और देश विदेश की सभी जानकारियों को एकत्र करें |
+              <a href="login">Board Login</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h6>
+              <strong>लोकोत्तर से विभिन्न प्रदेशों की खबरें पढ़ें</strong>
+            </h6>
+            <hr />
+            <div class="row">
+              <div class="col-6">
+                <ul class="footerul">
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/national.html"
+                      >राष्ट्रीय</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/trade.html"
+                      >व्यापार</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/sports.html"
+                      >खेल</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/religion.html"
+                      >धर्म-संस्कृति</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/tourism.html"
+                      >पर्यटन</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="../menu/entertainment.html"
+                      >मनोरंजन</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="footerul">
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="mp.html"
+                      >मध्यप्रदेश</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="cg.html
+                      >छत्तीसगढ़</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="up.html"
+                      >उत्तर प्रदेश</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="delhi.html"
+                      >दिल्ली</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="text-decoration: none; color: #000"
+                      href="rs.html"
+                      >राजस्थान</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <strong>नवीनतम जानकारी के लिये सदस्यता लीजिये</strong>
+            <div class="m-0 p-0 my-2 row">
+              <div class="m-0 p-0 col-8">
+                <input
+                  type="email"
+                  class="subscribe-inp"
+                  placeholder="अपना ईमेल लिखें"
+                />
+              </div>
+              <div class="m-0 p-0 col-4">
+                <button class="btn subscribe-btn">Subscribe</button>
+              </div>
+            </div>
+            <div style="color: #6f6f6f; font-weight: bold" class="pt-2">
+              संपर्क करें
+            </div>
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="far"
+              data-icon="envelope"
+              class="svg-inline--fa fa-envelope mx-2"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              style="color: #6f6f6f"
+            >
+              <path
+                fill="currentColor"
+                d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+              ></path>
+            </svg>
+            support@lokottar.com
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-8">
+            Copyright © 2011-
+            <!-- -->2022
+            <!-- -->
+            Lokottar | All rights reserved
+          </div>
+          <div class="text-md-right col-md-4">
+            <a href="/" class="social-ftr-btn"
+              ><svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="facebook-square"
+                class="svg-inline--fa fa-facebook-square"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+                ></path></svg></a
+            ><a href="/" class="social-ftr-btn"
+              ><svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="twitter"
+                class="svg-inline--fa fa-twitter"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                ></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <link
+    rel="stylesheet"
+    href="main.js
+"
+  />
+</html>
